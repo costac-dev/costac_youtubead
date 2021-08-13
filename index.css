@@ -1,0 +1,138 @@
+/* 스마트폰 (가로 및 세로) ----------- */
+@media (max-device-width: 768px) and (max-width: 768px) {
+  body {
+    width: 100vw;
+    margin: 0px;
+  }
+  .content1box {
+    margin: 0px 10px 0px 10px;
+  }
+  .content1ul {
+    font-size: 11px;
+  }
+  .footertext {
+    font-size: 10px;
+  }
+}
+
+body {
+  width: 100vw;
+  margin: 0px;
+}
+.infomain {
+  width: 100vw;
+  margin: 0px;
+}
+/*header*/
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header a {
+  text-decoration: none;
+  padding: 0px;
+  margin: 10px 10px 0px 10px;
+}
+.headerimg {
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+.menubox {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid black;
+}
+.menubox a {
+  width: 20%;
+  text-decoration: none;
+  padding: 10px;
+  margin: 20px 0px 0px 0px;
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}
+.menubox a:hover {
+  box-shadow: 0px 5px 0px 0px gray;
+}
+/*header*/
+/*모집요강페이지*/
+.content1box {
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 10px 0px 10px;
+  padding: 0px;
+}
+.content1box h2 {
+  margin: 5% 0px 0px 0px;
+}
+.content1 {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+.content1ulbox {
+  display: flex;
+  flex-direction: column;
+}
+.content1ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+.content1ul li {
+  list-style-type: none;
+  margin: 10px 0px 10px 0px;
+  padding: 0px;
+}
+
+/*모집요강페이지*/
+
+/*푸터 위의 인증마크들..*/
+.upfooterimg {
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 0px 30px 0px;
+}
+.upfooterimg img {
+  z-index: 1;
+  width: 20%;
+  height: 20%;
+  max-width: 180px;
+  max-height: 180px;
+}
+/*푸터 위의 인증마크들..*/
+
+/*footer*/
+.footer {
+  width: 100vw;
+  z-index: 1;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.footertext {
+  z-index: 1;
+  width: 100vw;
+  text-align: center;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  line-height: 30px;
+}
+/*footer*/
