@@ -16,15 +16,14 @@
 }
 
 body {
+  background-color: #f8f3e7;
   width: 100vw;
   margin: 0px;
 }
-.infomain {
-  width: 100vw;
-  margin: 0px;
-}
+
 /*header*/
 .header {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,93 +31,66 @@ body {
 .header a {
   text-decoration: none;
   padding: 0px;
-  margin: 10px 10px 0px 10px;
+  margin: 3% 3% 0% 3%;
+  display: flex;
+  justify-content: center;
 }
 .headerimg {
-  width: auto;
-  height: auto;
-  max-width: 300px;
-  max-height: 300px;
+  width: 55%;
+  height: 55%;
+  margin: 3% 0% 0% 0%;
 }
 .menubox {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  border-bottom: 1px solid black;
+  border-bottom: 3px solid black;
 }
 .menubox a {
   width: 20%;
   text-decoration: none;
   padding: 10px;
-  margin: 20px 0px 0px 0px;
+  margin: 2% 0px 0px 0px;
   color: black;
-  font-size: 16px;
+  font-size: 1.8rem;
   text-align: center;
 }
 .menubox a:hover {
   box-shadow: 0px 5px 0px 0px gray;
 }
 /*header*/
-/*모집요강페이지*/
-.content1box {
-  z-index: 1;
+
+.infoimgbox {
   width: 100%;
+  margin: 3% 0% 0% 0%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0px 10px 0px 10px;
-  padding: 0px;
+  justify-content: center;
 }
-.content1box h2 {
-  margin: 5% 0px 0px 0px;
+.infoimg {
+  width: 80%;
 }
-.content1 {
-  z-index: 1;
-  display: flex;
-  flex-direction: column;
-  margin: 0px 0px 0px 0px;
-  padding: 0px;
-}
-.content1ulbox {
-  display: flex;
-  flex-direction: column;
-}
-.content1ul {
-  display: flex;
-  flex-direction: column;
-  margin: 0px 0px 0px 0px;
-  padding: 0px;
-}
-.content1ul li {
-  list-style-type: none;
-  margin: 10px 0px 10px 0px;
-  padding: 0px;
-}
-
-/*모집요강페이지*/
 
 /*푸터 위의 인증마크들..*/
 .upfooterimg {
-  z-index: 1;
   width: 100%;
+  height: auto;
+  background-color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin: 40px 0px 30px 0px;
+  justify-content: space-evenly;
+  padding: 2% 0px 2% 0px;
 }
 .upfooterimg img {
-  z-index: 1;
   width: 20%;
   height: 20%;
-  max-width: 180px;
-  max-height: 180px;
 }
 /*푸터 위의 인증마크들..*/
 
 /*footer*/
 .footer {
-  width: 100vw;
-  z-index: 1;
+  width: 100%;
   padding: 0px;
   margin: 0px 0px 0px 0px;
   display: flex;
@@ -128,11 +100,11 @@ body {
   color: white;
 }
 .footertext {
-  z-index: 1;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   padding: 0px;
-  margin: 0px 0px 0px 0px;
-  line-height: 30px;
+  margin: 2% 0px 2% 0px;
+  line-height: 2rem;
+  font-size: 1.2rem;
 }
 /*footer*/
